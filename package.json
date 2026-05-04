@@ -1,0 +1,10 @@
+{
+  "homepage": "https://gretahm01.github.io/panaderiaElonga/",
+  "name": "panaderia",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}

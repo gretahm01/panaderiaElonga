@@ -1,0 +1,17 @@
+.buscador-container {
+  margin-bottom: 16px;
+}
+
+.buscador-input {
+  width: 400px;
+  max-width: 400px;
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.buscador-input:focus {
+  border-color: #534AB7;
+}

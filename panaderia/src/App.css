@@ -1,0 +1,30 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;        /* centra toda la página */
+  padding: 24px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.app-controles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centra todo */
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.app-categorias {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
