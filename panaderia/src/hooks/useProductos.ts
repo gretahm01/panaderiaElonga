@@ -22,7 +22,7 @@ const categorias = ['todas', 'pan dulce', 'pan salado', 'bebida']
             setProductos(data)
         }
     }
-    //useEfect para que se ejecute la funcion traerDatos cuando el componente se monte
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         traerDatos()
     }, [])
